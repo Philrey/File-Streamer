@@ -1,0 +1,98 @@
+body {
+    background-color: rgb(51, 51, 51);
+	font-family: "Century Gothic";
+}
+.bg{
+	position: fixed;
+	left:0;
+	top: 0;
+	height: 100%;
+}
+.resizableText {
+    font-size: 10px;
+}
+.playBtns {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	
+    background-color: #FF5454;
+	border-radius: 5px;
+	
+	font-family: "Century Gothic";
+    color: white;
+}
+.downloadBtns {
+	
+    padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	
+    background-color: #00AC16;
+	border-radius: 5px;
+	
+	font-family: "Century Gothic";
+    color: white;
+}
+.closeBtn {
+    text-align: right;
+}
+.videoHold {
+    text-align: center;
+    height: 350px;
+}
+#contentTable {
+    position: fixed;
+    left: 0;
+    top: 0;
+    vertical-align: middle;
+    
+}
+#modalBG {
+    display: none;
+    background-color: grey;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+#videoHolder {
+    position: relative;
+    width: 80%;
+    height: 80%;
+}
+
+.card {
+	background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    width: 100%;
+	
+	z-index: 2;
+    /*display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-self: start;*/
+}
+.imgIcons{
+	height: 80px;
+	
+}
+  
+/* Add rounded corners to the top left and the top right corner of the image */
+img {
+    border-radius: 5px 5px 0 0;
+}
+.container {
+    padding: 5px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns:;
+    row-gap: 20px;
+    column-gap: 70px;
+}
